@@ -1,16 +1,27 @@
 {
-  "name": "lab18",
+  "name": "lab19",
   "version": "1.0.0",
   "description": "",
   "main": "app.js",
+  "dependencies": {
+    "browser-sync": "^2.12.5",
+    "cool-ascii-faces": "1.3.4",
+    "ejs": "^2.4.1",
+    "express": "^4.13.4",
+    "gulp": "^3.9.1"
+  },
+  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/corcorankt1/gc-lab19.git"
+  },
   "author": "Katie Corcoran",
   "license": "ISC",
-  "Dependencies": {
-    "browser-sync": "^2.12.5",
-    "express": "^4.13.4",
-    "gulp": "^3.9.1"
-  }
+  "bugs": {
+    "url": "https://github.com/corcorankt1/gc-lab19/issues"
+  },
+  "homepage": "https://github.com/corcorankt1/gc-lab19#readme"
 }

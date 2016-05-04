@@ -1,5 +1,6 @@
 var express = require('express');
 var quote = require("./quotes");
+var cool = require('cool-ascii-faces');
 var app = express();
 
 
@@ -15,4 +16,7 @@ app.get('/api', function(req,res){
 	res.send(quote[index]);
 });
 
+app.get('/cool', function(request, response) {
+  response.send(cool());
+});
 
